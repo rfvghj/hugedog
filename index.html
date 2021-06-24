@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boxer Inu - A community driven dog-themed proocol with actual use cases. </title>
+<meta name="description"
+    content="A community-driven, dog themed protocol with actual use cases and utility. Boxer Inu is a BEP-20 token with deflationary, autonomous yield, and liquidity generation features.">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="https://boxerinu.finance" />
+<meta name="twitter:title" content="Boxer Inu - A community driven dog-themed proocol with actual use cases. " />
+<meta name="twitter:description"
+    content="A community-driven, dog themed protocol with actual use cases and utility. Boxer Inu is a BEP-20 token with deflationary, autonomous yield, and liquidity generation features." />
+<meta name="twitter:image" content="./img/2.png" />
+<meta property="og:title" content="Boxer Inu - A community driven dog-themed proocol with actual use cases." />
+<meta property="og:description"
+    content="A community-driven, dog themed protocol with actual use cases and utility. Boxer Inu is a BEP-20 token with deflationary, autonomous yield, and liquidity generation features." />
+<meta property="og:image" content="./img/2.png" />
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<meta property="og:image:alt" content="BoxerInu">
+
+<link rel="stylesheet" type="text/css" href="./css/slick.css">
+<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+<style type="text/css">
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .slider {
+        width: 60%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+        margin: 0px 20px;
+    }
+
+    @media (min-width: 1024px) {
+
+        .slick-list {
+            padding: 20px 20px;
+        }
+
+        .slick-slide .slide-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+
+    @media (min-width: 600px) {
+
+        .slick-list {
+            padding: 0 0;
+        }
+
+
+        .slick-slide .slide-item img {
+            width: 550px;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+
+
+    @media (min-width: 600px) {
+        .slick-list {
+            padding: 0 0;
+        }
+
+        .slick-slide .slide-item img {
+            width: 500px;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+
+    .slick-slide img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .slick-slide .slide-item {
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .slick-slide .slide-item img {
+
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+        margin: 0%;
+        border-radius: 0%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: white;
+    }
+
+
+    .slick-slide {
+        transition: all ease-in-out .3s;
+        opacity: .5;
+    }
+
+    .slick-active {
+        opacity: .5;
+    }
+
+    .slick-current {
+        opacity: 1;
+    }
+
+    .footer-items .social .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .social .fa:hover {
+        opacity: 0.7;
+    }
+
+    .social .fa-twitter {
+        color: #521c80;
+    }
+
+    .social .fa-telegram {
+
+        color: #521c80;
+    }
+
+
+    .fa-github {
+
+        color: #521c80;
+    }
+
+    .fa-github {
+
+        background: #55ACEE;
+        color: white;
+    }
+
+    .btn-main:hover {
+        background-color: #e0a485;
+    }
+</style>
+
+<!--import-css-->
+<link rel="stylesheet" href="./css/global.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/mobile.css">
+<link rel="stylesheet" href="./css/preloader.css">
+<link rel="stylesheet" href="./css/slider.css">
+<link rel="stylesheet" href="./css/brand.css">
+
+<script src="./js/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="./js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<!--import-Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!--Bootstrapt-->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/w3.css">
+<link href="./css/aos.css" rel="stylesheet">
+<script src="./js/526bff5e00.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: #01081e;">
+    <div id="preloader"></div>
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark"
+        style="background-color: #01081e; display: flex; justify-content: space-between;">
+        <a class="navbar-brand" href="index.html"><img src="./img/2.png" height="50" style="margin-left: 10%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style=" margin-top: 1.5rem; margin-left: 25%;">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#welcome"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">Welcome</a>
+                </li>
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#about"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">About
+                        Us</a>
+                </li>
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#static"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">Features</a>
+                </li>
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#roadmap"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">Roadmap</a>
+                </li>
+
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#howToBuy"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">How
+                        to Buy</a>
+                </li>
+
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link"
+                        href="https://bscscan.com/address/0x192E9321b6244D204D4301AfA507EB29CA84D9ef#code"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">Contract</a>
+                </li>
+
+
+                <li class="nav-item" style="margin-left: 1.8rem; list-style: none;">
+                    <a class="nav-link" href="#card"
+                        style="    font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; color: #fff; font-weight: 700; text-decoration: none;">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="bg">
+
+    </section>
+
+    <section class="welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="left">
+                        <div class="text-center">
+                            <img src="img/boxer_nod.gif" class="img-section1top" data-aos="fade-left"
+                                data-aos-duration="2000">
+                        </div>
+                        <div class="left-text">
+                            <div data-aos="fade-right" data-aos-duration="2000">
+                                <h1><span class="color-active"> A community-driven, dog-<br> themed protocol with</span>
+                                    actual <br> use cases and utility</h1>
+                                <h3>Boxer Inu is a BEP-20 token with deflationary, <br> autonomous yield, and liquidity
+                                    generation <br> features.</h3>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1850">
+                                <div class="btn-group">
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x192E9321b6244D204D4301AfA507EB29CA84D9ef"
+                                        target="_blank" class="btn-main">Buy Now</a>
+                                    <a href="/boxerinuwhitepaper.pdf" target="_blank" class="btn-main">White Paper</a>
+                                </div>
+                                <div class="counter">
+                                    <h3>Pancakeswap launch in:</h3>
+                                    <div class="counter-items">
+                                        <div class="item">
+                                            <h3 id="days"></h3>
+                                            <p>DAYS</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3 id="hours"></h3>
+                                            <p>HRS</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3 id="minutes"></h3>
+                                            <p>MIN</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3 id="seconds"></h3>
+                                            <p>SEC</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <img src="img/boxer_nod.gif" class="img-section1" data-aos="fade-left" data-aos-duration="2000">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="static">
+        <div class="container">
+            <div class="static-items">
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./img/10.png">
+                    <h3>Perfect Distribution & <br> Tokenomics</h3>
+                    <p>We have a perfect token distribution and fees plan that will not only bring benefit to the value
+                        of the token but also to the token holders and the liquidity pool.</p>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./img/9.png">
+                    <h3>Static Rewards</h3>
+                    <p>3% tax is cut on each transaction which awards every user with free tokens in their wallets. as
+                        people conduct transactions. Hodlers are effectively paid for merely holding $BOXER in their
+                        wallets.</p>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./img/8.png">
+                    <h3>Auto LP Generation</h3>
+                    <p>2% tax on each transaction is set aside to automatically generate liquidity inside PancakeSwap
+                        liquidity pools. 50/50 value of tokens and BNB is added. This function solidifies Boxer Inu’s
+                        future.</p>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./img/7.png">
+                    <h3>Deflationary Mechanics</h3>
+                    <p>Auto burn on every transaction and 1% manual burn to make sure the value of $BOXER stays stable
+                        or increases as tokens are removed from the supply forever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600"
+            data-aos-offset="0">
+            <h3>About Us</h3>
+            <h1 class="color-active">What Is Boxer Inu</h1>
+            <hr width="80%" color="#0274be" size="2">
+            <div class="about-text">
+                <p>
+                    Boxer Inu is a token on the Binance Smart Chain that offers features like auto burns, auto-liquidity
+                    generating mechanism, and static rewards on every transaction.
+                </p><br>
+                <p>
+                    The main reason for creating Boxer Inu was that most deflationary and RFI tokens these days don’t
+                    have any use cases or utility. Boxer Inu brings to its community a bunch of products on which
+                    development has already started and some of which will be released in the next quarter. These
+                    products will all exponentially raise the value and price of Boxer Inu, a project that will uphold
+                    the Inu tag.
+                </p><br>
+                <p>
+                    The products include an NFT Marketplace, a Decentralized Exchange with features such as Yield
+                    Farming, Staking and Lottery, and a crypto games platform that will propose a gamified version of
+                    growing. After this comes a fully customized mobile app that will allow user to trade $BOXER
+                    effortlessly right in the app.
+                </p><br>
+                <p>
+                    Boxer Inu has a perfect tokenomics and token distribution model that aims to take Boxer to the moon
+                    like its predecessors with the same Inu name.
+                </p><br>
+            </div>
+            <div class="about-static">
+                <div class="item">
+                    <p>1Q</p>
+                    <p><span> Total Supply</span></p>
+                </div>
+                <div class="item">
+                    <p>-</p>
+                    <p><span> Market Cap</span></p>
+                </div>
+                <div class="item">
+                    <p>-</p>
+                    <p><span> Total Tx</span></p>
+                </div>
+                <div class="item no-border">
+                    <p>-</p>
+                    <p><span> Holders</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h1 data-aos="fade-zoom-in" data-aos-duration="1500">Boxer Inu Roadmap</h1>
+            <div class="roadmap-item">
+                <div class="left">
+                    <img src="./img/6.png" data-aos="fade-right" data-aos-duration="1500">
+                </div>
+                <div class="middle">
+                    <img src="./img/1.png" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="right">
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 2
+                        </h3>
+                        <li>Concept Creation.</li>
+                        <li>Launch of White Paper.</li>
+                        <li>Huge Marketing Efforts.</li>
+                        <li>Launch of Pre-sale. </li>
+                        <li>PancakeSwap and Exchange Listing.</li>
+                    </ul>
+
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 3
+                        </h3>
+                        <li>Coinmarketcap & Coingecko Listing.</li>
+                        <li>More Exchange Listing.</li>
+                        <li>New Partnerships.</li>
+                        <li>Boxer Decentralized Exchange (DEX). </li>
+                        <li>Start of Development: Boxer Launchpad.</li>
+                        <li>Boxer Lottery.</li>
+                        <li>Boxer Crypto Gaming. </li>
+                    </ul>
+
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 4
+                        </h3>
+                        <li>Huge Marketing Push. </li>
+                        <li>Boxer Mobile App.</li>
+                        <li>Boxer LaunchPad.</li>
+                        <li>Boxer Lending/Borrowing Portal. </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmapmobile">
+        <div class="container">
+            <h1 data-aos="fade-zoom-in" data-aos-duration="1500">Boxer Inu Roadmap</h1>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="./img/6.png" height="250" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="col-4">
+                    <img src="./img/1.png" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="col-8">
+
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 2
+                        </h3>
+                        <li>Concept Creation.</li>
+                        <li>Launch of White Paper.</li>
+                        <li>Huge Marketing Efforts.</li>
+                        <li>Launch of Pre-sale. </li>
+                        <li>PancakeSwap and Exchange Listing.</li>
+                    </ul>
+
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 3
+                        </h3>
+                        <li>Coinmarketcap & Coingecko Listing.</li>
+                        <li>More Exchange Listing.</li>
+                        <li>New Partnerships.</li>
+                        <li>Boxer Decentralized Exchange (DEX). </li>
+                        <li>Start of Development: Boxer Launchpad.</li>
+                        <li>Boxer Lottery.</li>
+                        <li>Boxer Crypto Gaming. </li>
+                    </ul>
+
+                    <ul data-aos="fade-up" data-aos-duration="1500">
+                        <h3>
+                            Quarter 4
+                        </h3>
+                        <li>Huge Marketing Push. </li>
+                        <li>Boxer Mobile App.</li>
+                        <li>Boxer LaunchPad.</li>
+                        <li>Boxer Lending/Borrowing Portal. </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="howToBuy" data-aos="fade-zoom-in" data-aos-duration="2000">
+        <div class="container">
+            <div class="items">
+                <div class="left">
+                    <div class="left-item">
+                        <div class="item">
+                            <h3><span>01.</span> Create a Metamask Wallet</h3>
+                            <p>Download/install metamask from Chrome at this link: <a target="_blank"
+                                    style="text-decoration: none; color: #ffba93;"
+                                    href="https://metamask.io/download.html">(https://metamask.io/download.html)</a> Or
+                                download/install MetaMask on your phone. Create a wallet or import one, be sure to store
+                                your keyphrase safely. </p>
+                        </div>
+                        <div class="item">
+                            <h3><span>02.</span> Setting BSC Network:</h3>
+                            <p>Switch to BSC Network <a target="_blank" style="text-decoration: none; color: #ffba93;"
+                                    href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain"
+                                    target="_blank">MetaMask to Binance Smart Chain</a>
+                                You can buy $BOXER with the BSC network only.</p>
+                        </div>
+                        <div class="item">
+                            <h3><span>03.</span> Visit our DxSale Page</h3>
+                            <p>Open our DxSale page. <a target="_blank" style="text-decoration: none; color: #ffba93;"
+                                    href=" https://dxsale.app/app/pages/defipresale?saleID=3955&chain=BSC"
+                                    target="_blank">(Click Here)</a>
+                                And buy BOXER tokens</p>
+                        </div>
+                        <div class="item">
+                            <h3><span>04.</span> How To Participate And Invest In DxSale Launchpad Step By Step
+
+                                Investing on crowdsales via DxSale:</h3>
+                            <p>Check it our here: <a target="_blank" style="text-decoration: none; color: #ffba93;"
+                                    href="https://www.youtube.com/watch?v=iAZVoOONAIg"
+                                    target="_blank">https://www.youtube.com/watch?v=iAZVoOONAIg</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right" data-aos="fade-left" data-aos-duration="1500">
+                    <h1>How To Buy BOXER Inu</h1>
+                    <h3>Follow these steps or join our <br> <a style="text-decoration: none; color: #ffba93;"
+                            target="_blank" href="https://t.me/BoxerInuOfficial"><span>Telegram</span></a> if you need
+                        any help.</h3>
+                    <img src="./img/5.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="useCases">
+        <div class="container">
+            <h1 data-aos="fade-zoom-in" data-aos-duration="2000">Use Cases</h1>
+            <p>
+                Unlike other meme coins, Boxer Inu has actual use cases that are almost completely developed. The
+                products include a Decentralized Exchange with high rewards for liquidity providers, Boxer Lottery, an
+                NFT Marketplace, a Crypto games platform, and later a fully functional mobile app through which $BOXER
+                can be bought and sold easily within the app. The next step would be the development of a decentralized
+                launchpad that will compete withe DxSale and BSCPad.
+            </p>
+
+        </div>
+    </section>
+
+    <div class="container carddesktop cardmobile mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="./img/website_light.png" style="width:100%">
+
+                    <img class="mySlides" src="./img/website_dark.png" style="width:100%">
+
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container carddesktop  mt-5 mb-5" style="margin-bottom: 75px;">
+        <div class="row">
+            <div class="col-12">
+                <div class="card-carousel" style="margin-bottom: 200px;">
+                    <div class="my-card"><img src="./img/website_light.png" height="400"></div>
+                    <div class="my-card"><img src="./img/website_dark.png" height="450"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <hr>
+            </div>
+
+        </div>
+    </div>
+    <div class="container carddesktop mt-5 mb-5" style="margin-bottom: 75px;">
+        <hr>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card-carousel" style="margin-bottom: 200px;">
+                    <div class="my-card"><img src="./img/boxer nft web.png" height="400"></div>
+                    <div class="my-card"><img src="./img/boxer nft web 2.png" height="450"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container cardmobile">
+        <div class="row">
+            <section class="regular slider">
+                <div>
+                    <img src="./img/website_light.png" style="height: auto; width: 410px; border-radius: 0%;"
+                        height="200">
+                </div>
+                <div>
+                    <img src="./img/website_dark.png" style="height: auto; width: 410px; border-radius: 0%;"
+                        height="200">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="container cardmobile">
+        <div class="row">
+            <section class="regular slider">
+                <div>
+                    <img src="./img/boxer nft web.png" style="height: auto; width: 410px; border-radius: 0%;"
+                        height="200">
+                </div>
+                <div>
+                    <img src="./img/boxer nft web 2.png" style="height: auto; width: 410px; border-radius: 0%;"
+                        height="200">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="dog" id="howToBuy" data-aos="fade-zoom-in" data-aos-duration="2000">
+        <div class="text-center">
+            <img src="./img/4.png" style="text-align:center;" height="200">
+        </div>
+    </section>
+
+    <section id="get">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                    <div class="text">
+                        <h3>Get White Paper And Get To Know <br> More About BOXER INU</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                    <img src="./img/3.png" data-aos="fade-up" data-aos-duration="2000" height="150">
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="button text-center" style="margin-left: 30%;">
+                        <a href="boxerinuwhitepaper.pdf" class="btn btn-sm" target="_blank">Whitepaper</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="card">
+        <div class="container">
+            <h2 style="text-align: center; color: #e0a485; font-size: 40px; margin-bottom: 2rem;">Frequenlty Asked
+                Questions</h2>
+
+            <button class="accordion">Where is the Pre-sale being done? How much percent? Minimum buy? Personal max?
+            </button>
+            <div class="panel">
+                <p>Presale will be done on DxSale so that it is trusted. Pre-sale will be 50% of the 1 Quadrillion
+                    supply. Minimum Buy will be 0.01 BNB. Personal Max is 5 BNB.</p>
+
+            </div>
+
+            <button class="accordion">What is the total supply and how will it be distributed?</button>
+            <div class="panel">
+                <p>Total Supply is 1,000,000,000,000,000 (1 Quadrillion). 50% is going to the presale, 27% will be used
+                    for listings and liquidity, 16% will be burned, 6% will go to the dev team wallet and 1% will be cut
+                    by the DxSale platform for the presale hosting. </p>
+            </div>
+
+            <button class="accordion">What is the total tax fee? And Breakdown?</button>
+            <div class="panel">
+                <p>The total tax fee is 10%. 4% will go to static rewards, 3% will go to auto liquidity generation, 2%
+                    will go towards charity and 1% will be auto burned. </p>
+
+            </div>
+            <button class="accordion">What features will the NFT Marketplace have?</button>
+            <div class="panel">
+                <p>This marketplace will be for all kinds of digital assets and crypto collectibles. Users can buy,
+                    sell, auction, bid, and discover digital art and assets. Apart from this, Boxer Inu will employ a
+                    bunch of artists and upload its own content for sale to the public. We will create and sell NFTs and
+                    the money generated from these activities will be donated to charities.</p>
+
+                <p>Content creators will be allowed to create their own NFT on the Binance Smart Chain using Boxer’s NFT
+                    mining feature. There is no need for content creators to have any programming knowledge to make
+                    collections and NFTs. Users who are selling content or NFTs can sell an item for a fixed price,
+                    create a declining price listing, or make an auction listing. </p>
+
+                <p>All kinds of content will be appreciated whether they are images, photos, digital art, music files,
+                    3d models, books, or videos. </p>
+                <p>The Boxer Coin NFT marketplace will be powered by the Boxer token meaning that all transactions will
+                    be made through this token. Each artist will be provided with BOXER tokens.</p>
+            </div>
+            <!-- <button class="accordion">Section 5</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> -->
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 style="text-align: left; text-transform: uppercase; margin-bottom: 55px; color: white;">Partners</h2>
+
+        <div class="row">
+
+
+            <section class="variable slider">
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <a
+                        href="https://bsctimes.com/boxer-inu-to-be-the-first-token-on-the-binance-smart-chain-collaborating-with-professional-ufc-and-boxing-fighters/">
+                        <img src="./img/bsctimes.png">
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1900">
+                    <a href="">
+                        <img src="./img/coinmaerketcap.png">
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <a href="https://bscscan.com/token/0x192E9321b6244D204D4301AfA507EB29CA84D9ef">
+                        <img src="./img/binance-smart-chain.jpg">
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1600">
+                    <a href="">
+                        <img src="./img/coin-gecko.jpg">
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1700">
+                    <a href="https://cryptodaily.io/boxer-inu/">
+                        <img src="./img/bscdaily.jpg">
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1800">
+                    <a href="">
+                        <img src="./img/2L-KEmdk_400x400.png">
+                    </a>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1900">
+                    <a href="">
+                        <img src="./img/bsc.jpg">
+                    </a>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1900">
+                    <a
+                        href="https://github.com/TechRate/Smart-Contract-Audits/blob/main/BoxerInu%20Full%20Smart%20Contract%20Security%20Audit.pdf">
+                        <img src="./img/tech-rate.jpg">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <a href="https://twitter.com/BoxerInuFinance" class="float-telegram" target="_blank">
+        <i class="fa fa-twitter my-float" style="margin-top: 15px;"></i>
+    </a>
+    <a href="https://t.me/BoxerInuOfficial" class="float" target="_blank">
+        <i class="fab fa-telegram-plane my-float"></i>
+    </a>
+    <footer>
+        <div class="container">
+            <div class="footer-items">
+                <div class="left">
+                    <img src="./img/2.png">
+                    <p>Boxer Inu is a BEP-20 token with deflationary, autonomous yield, charity, and liquidity
+                        generation features.</p>
+
+                </div>
+                <div class="right">
+                    <div class="right-nav">
+                        <ul>
+                            <li><a id="active-footer" href="#welcome">Welcome</a></li>
+                            <li><a href="#about">AboutUs</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#roadmap">Roadmap</a></li>
+                            <li><a href="#howToBuy"> Buy</a></li>
+                            <li><a href="https://bscscan.com/address/0x192E9321b6244D204D4301AfA507EB29CA84D9ef#code"
+                                    target="_blank">Contract</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://twitter.com/BoxerInuFinance" target="_blank"><img
+                                            src="./img/pnglot.com-twitter-bird-logo-png-139932.png"
+                                            style="border-radius: 50%;" height="30"></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-gitlab"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li> -->
+                                <li><a href="https://t.me/BoxerInuOfficial" target="_blank"><img
+                                            src="./img/Telegram_logo.svg.webp" style="border-radius: 50%;"
+                                            height="30"></a></li>
+                                <li><a href=" https://github.com/BoxerInuOfficial" target="_blank"><img
+                                            src="./img/github-icon.png" style="border-radius: 50%;" height="30"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <h6>Copyright @ BOXER INU, All Rights Reserved</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/modernizr.js"></script>
+    <script src="./js/preloader.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/timer.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/slider.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous"></script>
+    <script src="/js/brand.js"></script>
+
+
+    <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+
+            $('.main-slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: true,
+                centerMode: true,
+                focusOnSelect: true
+            });
+
+            $('.variable').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                centerMode: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: true
+                        }
+                    }
+                ]
+            });
+
+            $('.main-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+
+            });
+            $(".vertical-center-4").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 4,
+                slidesToScroll: 2
+            });
+            $(".vertical-center-3").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".vertical-center-2").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            });
+            $(".vertical-center").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+            });
+            $(".vertical").slick({
+                dots: true,
+                vertical: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                autoplay: true
+            });
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 5,
+                slidesToScroll: 3
+            });
+            $(".lazy").slick({
+                lazyLoad: 'ondemand', // ondemand progressive anticipated
+                infinite: true
+            });
+        });
+    </script>
+</body>
+
+</html>
