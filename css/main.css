@@ -122,33 +122,18 @@ a{
 
 
 /* WELCOME */
- .bg{
+.bg{
+    background-image: url(img/103b97ed-fb36-4887-b0b8-286b9104ac11.png);
     width: 100%;
     background-position: center;
     background-repeat: repeat;
-    height: 730px;
-    position: absolute;  
-    background-size: 100% auto;
-}
-/*
-.bgsta{
-    background-image: url(../img/web1.png);
-    width: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    height: 660px;
-    background-size: 100% auto;
+    height: 600px;
+    position: absolute;
+    background-attachment: fixed;
 }
 
-.bgabo{
-    margin-top: -2rem;
-    background-image: url(../img/web-4.png);
-    width: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    height: 830px;
-    background-size: 100% auto;
-} */
+
+
 
 
 .welcome{
